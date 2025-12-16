@@ -1,0 +1,2806 @@
+[
+  [
+    "unpaused-game"
+  ],
+  [
+    "game-started"
+  ],
+  [
+    "paused-game"
+  ],
+  [
+    "unpaused-game"
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.4318
+      },
+      "cds": {
+        "short": {
+          "interest": 3.48,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.48,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.48,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 431.35,
+        "adjusted": 761.72
+      },
+      "stocks": {
+        "292": {
+          "value": 4.85,
+          "adjusted": 8.56
+        },
+        "298": {
+          "value": 16.5,
+          "adjusted": 29.14
+        },
+        "306": {
+          "value": 32.11,
+          "adjusted": 56.71
+        },
+        "1701": {
+          "value": 16.81,
+          "adjusted": 29.69
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.86,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.24,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.94,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.76,
+        "adjusted": 1.34
+      },
+      "gold": {
+        "value": 334.81,
+        "adjusted": 591.24
+      },
+      "tick": "275"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.2021
+      },
+      "cds": {
+        "short": {
+          "interest": 3.19,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.19,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.19,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 438.82,
+        "adjusted": 772.19
+      },
+      "stocks": {
+        "292": {
+          "value": 5.11,
+          "adjusted": 8.99
+        },
+        "298": {
+          "value": 17.38,
+          "adjusted": 30.57
+        },
+        "306": {
+          "value": 32.67,
+          "adjusted": 57.49
+        },
+        "1701": {
+          "value": 16.19,
+          "adjusted": 28.49
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.61,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.04,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.7,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.78,
+        "adjusted": 1.36
+      },
+      "gold": {
+        "value": 329.05,
+        "adjusted": 579.03
+      },
+      "tick": "276"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 1.87
+      },
+      "cds": {
+        "short": {
+          "interest": 3.12,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.12,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.12,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 438.78,
+        "adjusted": 770.51
+      },
+      "stocks": {
+        "292": {
+          "value": 5.18,
+          "adjusted": 9.1
+        },
+        "298": {
+          "value": 18.5,
+          "adjusted": 32.49
+        },
+        "306": {
+          "value": 31.93,
+          "adjusted": 56.07
+        },
+        "1701": {
+          "value": 17.44,
+          "adjusted": 30.62
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.4,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.55,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.38,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.61,
+        "adjusted": 1.07
+      },
+      "gold": {
+        "value": 329.31,
+        "adjusted": 578.27
+      },
+      "tick": "277"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 1.815
+      },
+      "cds": {
+        "short": {
+          "interest": 3.11,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.11,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.11,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 443.38,
+        "adjusted": 777.5
+      },
+      "stocks": {
+        "292": {
+          "value": 5.59,
+          "adjusted": 9.81
+        },
+        "298": {
+          "value": 18.13,
+          "adjusted": 31.78
+        },
+        "306": {
+          "value": 31.74,
+          "adjusted": 55.66
+        },
+        "1701": {
+          "value": 18.38,
+          "adjusted": 32.22
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.3,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.12,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 5.94,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.63,
+        "adjusted": 1.1
+      },
+      "gold": {
+        "value": 330.25,
+        "adjusted": 579.12
+      },
+      "tick": "278"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.158
+      },
+      "cds": {
+        "short": {
+          "interest": 3.09,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.09,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.09,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 451.67,
+        "adjusted": 789.28
+      },
+      "stocks": {
+        "292": {
+          "value": 5.82,
+          "adjusted": 10.16
+        },
+        "298": {
+          "value": 20,
+          "adjusted": 34.95
+        },
+        "306": {
+          "value": 30.7,
+          "adjusted": 53.64
+        },
+        "1701": {
+          "value": 17.5,
+          "adjusted": 30.58
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.32,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.24,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.06,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.58,
+        "adjusted": 1.01
+      },
+      "gold": {
+        "value": 341.89,
+        "adjusted": 597.44
+      },
+      "tick": "279"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.2494
+      },
+      "cds": {
+        "short": {
+          "interest": 3.1,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.1,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.1,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 438.89,
+        "adjusted": 764.82
+      },
+      "stocks": {
+        "292": {
+          "value": 5.44,
+          "adjusted": 9.49
+        },
+        "298": {
+          "value": 18.63,
+          "adjusted": 32.46
+        },
+        "306": {
+          "value": 32.24,
+          "adjusted": 56.18
+        },
+        "1701": {
+          "value": 17.44,
+          "adjusted": 30.39
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.26,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.14,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.05,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.64,
+        "adjusted": 1.12
+      },
+      "gold": {
+        "value": 367.74,
+        "adjusted": 640.83
+      },
+      "tick": "280"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 1.917
+      },
+      "cds": {
+        "short": {
+          "interest": 3.21,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.21,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.21,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 450.23,
+        "adjusted": 784.04
+      },
+      "stocks": {
+        "292": {
+          "value": 5.55,
+          "adjusted": 9.67
+        },
+        "298": {
+          "value": 22,
+          "adjusted": 38.31
+        },
+        "306": {
+          "value": 33.04,
+          "adjusted": 57.53
+        },
+        "1701": {
+          "value": 17.44,
+          "adjusted": 30.37
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.55,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.28,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.07,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.61,
+        "adjusted": 1.07
+      },
+      "gold": {
+        "value": 371.93,
+        "adjusted": 647.68
+      },
+      "tick": "281"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.3529
+      },
+      "cds": {
+        "short": {
+          "interest": 3.16,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.16,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.16,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 450.54,
+        "adjusted": 783.49
+      },
+      "stocks": {
+        "292": {
+          "value": 5.03,
+          "adjusted": 8.75
+        },
+        "298": {
+          "value": 24,
+          "adjusted": 41.74
+        },
+        "306": {
+          "value": 31.56,
+          "adjusted": 54.88
+        },
+        "1701": {
+          "value": 17,
+          "adjusted": 29.56
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.41,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.04,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 5.8,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.62,
+        "adjusted": 1.08
+      },
+      "gold": {
+        "value": 392.79,
+        "adjusted": 683.06
+      },
+      "tick": "282"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.4357
+      },
+      "cds": {
+        "short": {
+          "interest": 3.14,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.14,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.14,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 450.19,
+        "adjusted": 781.26
+      },
+      "stocks": {
+        "292": {
+          "value": 5.29,
+          "adjusted": 9.19
+        },
+        "298": {
+          "value": 28.75,
+          "adjusted": 49.89
+        },
+        "306": {
+          "value": 31.62,
+          "adjusted": 54.87
+        },
+        "1701": {
+          "value": 16.88,
+          "adjusted": 29.28
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.53,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.16,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 5.83,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.77,
+        "adjusted": 1.33
+      },
+      "gold": {
+        "value": 377.97,
+        "adjusted": 655.93
+      },
+      "tick": "283"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.1504
+      },
+      "cds": {
+        "short": {
+          "interest": 3.12,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.12,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.12,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 463.55,
+        "adjusted": 803.34
+      },
+      "stocks": {
+        "292": {
+          "value": 6,
+          "adjusted": 10.4
+        },
+        "298": {
+          "value": 30.25,
+          "adjusted": 52.42
+        },
+        "306": {
+          "value": 32.05,
+          "adjusted": 55.55
+        },
+        "1701": {
+          "value": 16.38,
+          "adjusted": 28.38
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.36,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 4.81,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 5.46,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.79,
+        "adjusted": 1.37
+      },
+      "gold": {
+        "value": 354.93,
+        "adjusted": 615.1
+      },
+      "tick": "284"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.278
+      },
+      "cds": {
+        "short": {
+          "interest": 3.24,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.24,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.24,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 458.93,
+        "adjusted": 792.05
+      },
+      "stocks": {
+        "292": {
+          "value": 5.89,
+          "adjusted": 10.17
+        },
+        "298": {
+          "value": 34,
+          "adjusted": 58.68
+        },
+        "306": {
+          "value": 29.71,
+          "adjusted": 51.27
+        },
+        "1701": {
+          "value": 16.75,
+          "adjusted": 28.91
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.35,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 4.72,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 5.34,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.73,
+        "adjusted": 1.27
+      },
+      "gold": {
+        "value": 364.4,
+        "adjusted": 628.91
+      },
+      "tick": "285"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.471
+      },
+      "cds": {
+        "short": {
+          "interest": 3.35,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.35,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.35,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 467.83,
+        "adjusted": 805.2
+      },
+      "stocks": {
+        "292": {
+          "value": 5.41,
+          "adjusted": 9.3
+        },
+        "298": {
+          "value": 37,
+          "adjusted": 63.68
+        },
+        "306": {
+          "value": 29.59,
+          "adjusted": 50.92
+        },
+        "1701": {
+          "value": 17.69,
+          "adjusted": 30.44
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.53,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 4.96,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 5.56,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.78,
+        "adjusted": 1.33
+      },
+      "gold": {
+        "value": 374.05,
+        "adjusted": 643.79
+      },
+      "tick": "286"
+    }
+  ],
+  [
+    "paused-game"
+  ],
+  [
+    "unpaused-game"
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 1.9548
+      },
+      "cds": {
+        "short": {
+          "interest": 3.26,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.26,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.26,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 461.93,
+        "adjusted": 793.41
+      },
+      "stocks": {
+        "292": {
+          "value": 5.03,
+          "adjusted": 8.64
+        },
+        "298": {
+          "value": 39.25,
+          "adjusted": 67.42
+        },
+        "306": {
+          "value": 33.04,
+          "adjusted": 56.75
+        },
+        "1701": {
+          "value": 17.06,
+          "adjusted": 29.31
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.62,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.14,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 5.82,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.79,
+        "adjusted": 1.35
+      },
+      "gold": {
+        "value": 383.63,
+        "adjusted": 658.93
+      },
+      "tick": "287"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 1.9602
+      },
+      "cds": {
+        "short": {
+          "interest": 3.15,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.15,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.15,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 468.66,
+        "adjusted": 804.97
+      },
+      "stocks": {
+        "292": {
+          "value": 4.96,
+          "adjusted": 8.52
+        },
+        "298": {
+          "value": 36.5,
+          "adjusted": 62.69
+        },
+        "306": {
+          "value": 33.65,
+          "adjusted": 57.8
+        },
+        "1701": {
+          "value": 17.38,
+          "adjusted": 29.84
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.63,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.21,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 5.83,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.72,
+        "adjusted": 1.23
+      },
+      "gold": {
+        "value": 386.56,
+        "adjusted": 663.96
+      },
+      "tick": "288"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 1.836
+      },
+      "cds": {
+        "short": {
+          "interest": 3.43,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.43,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.43,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 481.6,
+        "adjusted": 824.94
+      },
+      "stocks": {
+        "292": {
+          "value": 5.52,
+          "adjusted": 9.45
+        },
+        "298": {
+          "value": 35.25,
+          "adjusted": 60.38
+        },
+        "306": {
+          "value": 37.41,
+          "adjusted": 64.09
+        },
+        "1701": {
+          "value": 18.13,
+          "adjusted": 31.05
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 3.6,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.1,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 5.77,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.72,
+        "adjusted": 1.24
+      },
+      "gold": {
+        "value": 381.9,
+        "adjusted": 654.17
+      },
+      "tick": "289"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.8288
+      },
+      "cds": {
+        "short": {
+          "interest": 3.77,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.77,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.77,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 467.19,
+        "adjusted": 798.09
+      },
+      "stocks": {
+        "292": {
+          "value": 5.11,
+          "adjusted": 8.73
+        },
+        "298": {
+          "value": 32.75,
+          "adjusted": 55.95
+        },
+        "306": {
+          "value": 35.56,
+          "adjusted": 60.75
+        },
+        "1701": {
+          "value": 18,
+          "adjusted": 30.75
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 4.16,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.74,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.28,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.77,
+        "adjusted": 1.31
+      },
+      "gold": {
+        "value": 384.08,
+        "adjusted": 656.11
+      },
+      "tick": "290"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.565
+      },
+      "cds": {
+        "short": {
+          "interest": 4.01,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.01,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.01,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 445.55,
+        "adjusted": 760.6
+      },
+      "stocks": {
+        "292": {
+          "value": 4.92,
+          "adjusted": 8.4
+        },
+        "298": {
+          "value": 28.25,
+          "adjusted": 48.23
+        },
+        "306": {
+          "value": 33.78,
+          "adjusted": 57.66
+        },
+        "1701": {
+          "value": 18.06,
+          "adjusted": 30.83
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 4.5,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.23,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.77,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.82,
+        "adjusted": 1.4
+      },
+      "gold": {
+        "value": 377.29,
+        "adjusted": 644.07
+      },
+      "tick": "291"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.3462
+      },
+      "cds": {
+        "short": {
+          "interest": 4.51,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.51,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.51,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 449.07,
+        "adjusted": 765.05
+      },
+      "stocks": {
+        "292": {
+          "value": 5.07,
+          "adjusted": 8.64
+        },
+        "298": {
+          "value": 27.25,
+          "adjusted": 46.42
+        },
+        "306": {
+          "value": 31.56,
+          "adjusted": 53.76
+        },
+        "1701": {
+          "value": 17.75,
+          "adjusted": 30.24
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.07,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.64,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.06,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.89,
+        "adjusted": 1.52
+      },
+      "gold": {
+        "value": 381.54,
+        "adjusted": 650
+      },
+      "tick": "292"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.3232
+      },
+      "cds": {
+        "short": {
+          "interest": 4.52,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.52,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.52,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 456.5,
+        "adjusted": 775.61
+      },
+      "stocks": {
+        "292": {
+          "value": 5.11,
+          "adjusted": 8.68
+        },
+        "298": {
+          "value": 26.5,
+          "adjusted": 45.02
+        },
+        "306": {
+          "value": 34.15,
+          "adjusted": 58.02
+        },
+        "1701": {
+          "value": 17.63,
+          "adjusted": 29.95
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.36,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.74,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.12,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.23,
+        "adjusted": 2.09
+      },
+      "gold": {
+        "value": 385.6,
+        "adjusted": 655.14
+      },
+      "tick": "293"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.75
+      },
+      "cds": {
+        "short": {
+          "interest": 4.73,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.73,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.73,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 444.27,
+        "adjusted": 752.28
+      },
+      "stocks": {
+        "292": {
+          "value": 5.07,
+          "adjusted": 8.59
+        },
+        "298": {
+          "value": 27.5,
+          "adjusted": 46.57
+        },
+        "306": {
+          "value": 32.79,
+          "adjusted": 55.52
+        },
+        "1701": {
+          "value": 16.19,
+          "adjusted": 27.41
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.5,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.95,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.34,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.95,
+        "adjusted": 3.3
+      },
+      "gold": {
+        "value": 385.47,
+        "adjusted": 652.72
+      },
+      "tick": "294"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.24
+      },
+      "cds": {
+        "short": {
+          "interest": 4.81,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.81,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.81,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 458.28,
+        "adjusted": 772.88
+      },
+      "stocks": {
+        "292": {
+          "value": 5.22,
+          "adjusted": 8.8
+        },
+        "298": {
+          "value": 28.5,
+          "adjusted": 48.06
+        },
+        "306": {
+          "value": 35.81,
+          "adjusted": 60.39
+        },
+        "1701": {
+          "value": 16.5,
+          "adjusted": 27.83
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.4,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.75,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.13,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 2.12,
+        "adjusted": 3.57
+      },
+      "gold": {
+        "value": 380.4,
+        "adjusted": 641.54
+      },
+      "tick": "295"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.892
+      },
+      "cds": {
+        "short": {
+          "interest": 5.03,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.03,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 8.03,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 475.49,
+        "adjusted": 800.29
+      },
+      "stocks": {
+        "292": {
+          "value": 5.14,
+          "adjusted": 8.66
+        },
+        "298": {
+          "value": 28.5,
+          "adjusted": 47.97
+        },
+        "306": {
+          "value": 37.91,
+          "adjusted": 63.8
+        },
+        "1701": {
+          "value": 17.5,
+          "adjusted": 29.45
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.56,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.81,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.19,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 2.12,
+        "adjusted": 3.57
+      },
+      "gold": {
+        "value": 391.74,
+        "adjusted": 659.34
+      },
+      "tick": "296"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.4568
+      },
+      "cds": {
+        "short": {
+          "interest": 5.51,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.51,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 8.51,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 462.27,
+        "adjusted": 777.52
+      },
+      "stocks": {
+        "292": {
+          "value": 5.26,
+          "adjusted": 8.84
+        },
+        "298": {
+          "value": 29,
+          "adjusted": 48.78
+        },
+        "306": {
+          "value": 39.02,
+          "adjusted": 65.62
+        },
+        "1701": {
+          "value": 17.94,
+          "adjusted": 30.17
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.96,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.28,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.62,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 2.09,
+        "adjusted": 3.51
+      },
+      "gold": {
+        "value": 389.57,
+        "adjusted": 655.24
+      },
+      "tick": "297"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.5
+      },
+      "cds": {
+        "short": {
+          "interest": 5.79,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.79,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 8.79,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 472.26,
+        "adjusted": 792.21
+      },
+      "stocks": {
+        "292": {
+          "value": 5.55,
+          "adjusted": 9.32
+        },
+        "298": {
+          "value": 26,
+          "adjusted": 43.61
+        },
+        "306": {
+          "value": 36.61,
+          "adjusted": 61.42
+        },
+        "1701": {
+          "value": 17.44,
+          "adjusted": 29.25
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 6.25,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.58,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.91,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.86,
+        "adjusted": 3.13
+      },
+      "gold": {
+        "value": 384.29,
+        "adjusted": 644.64
+      },
+      "tick": "298"
+    }
+  ],
+  [
+    "paused-game"
+  ],
+  [
+    "unpaused-game"
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 4.164
+      },
+      "cds": {
+        "short": {
+          "interest": 6.29,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 8.29,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 9.29,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 453.55,
+        "adjusted": 759.3
+      },
+      "stocks": {
+        "292": {
+          "value": 5.41,
+          "adjusted": 9.05
+        },
+        "298": {
+          "value": 24,
+          "adjusted": 40.18
+        },
+        "306": {
+          "value": 35.32,
+          "adjusted": 59.13
+        },
+        "1701": {
+          "value": 16.69,
+          "adjusted": 27.94
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 6.94,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.8,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.92,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.62,
+        "adjusted": 2.71
+      },
+      "gold": {
+        "value": 379.26,
+        "adjusted": 634.93
+      },
+      "tick": "299"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.96
+      },
+      "cds": {
+        "short": {
+          "interest": 6.24,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 8.24,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 9.24,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 461.17,
+        "adjusted": 770
+      },
+      "stocks": {
+        "292": {
+          "value": 4.96,
+          "adjusted": 8.28
+        },
+        "298": {
+          "value": 26,
+          "adjusted": 43.41
+        },
+        "306": {
+          "value": 36.92,
+          "adjusted": 61.65
+        },
+        "1701": {
+          "value": 16.06,
+          "adjusted": 26.82
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 7.2,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.83,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.84,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.69,
+        "adjusted": 2.82
+      },
+      "gold": {
+        "value": 378.44,
+        "adjusted": 631.87
+      },
+      "tick": "300"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.6941
+      },
+      "cds": {
+        "short": {
+          "interest": 6.16,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 8.16,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 9.16,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 470.42,
+        "adjusted": 783.37
+      },
+      "stocks": {
+        "292": {
+          "value": 4.77,
+          "adjusted": 7.95
+        },
+        "298": {
+          "value": 27.25,
+          "adjusted": 45.38
+        },
+        "306": {
+          "value": 35.13,
+          "adjusted": 58.51
+        },
+        "1701": {
+          "value": 15.19,
+          "adjusted": 25.29
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 6.97,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.56,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.66,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.56,
+        "adjusted": 2.59
+      },
+      "gold": {
+        "value": 376.63,
+        "adjusted": 627.18
+      },
+      "tick": "301"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 4.186
+      },
+      "cds": {
+        "short": {
+          "interest": 6.15,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 8.15,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 9.15,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 487.39,
+        "adjusted": 810.02
+      },
+      "stocks": {
+        "292": {
+          "value": 4.81,
+          "adjusted": 7.99
+        },
+        "298": {
+          "value": 27.25,
+          "adjusted": 45.29
+        },
+        "306": {
+          "value": 37.6,
+          "adjusted": 62.49
+        },
+        "1701": {
+          "value": 15.44,
+          "adjusted": 25.66
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 6.44,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.06,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.23,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.87,
+        "adjusted": 3.1
+      },
+      "gold": {
+        "value": 382.48,
+        "adjusted": 635.66
+      },
+      "tick": "302"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.7642
+      },
+      "cds": {
+        "short": {
+          "interest": 6.11,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 8.11,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 9.11,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 501.94,
+        "adjusted": 830.9
+      },
+      "stocks": {
+        "292": {
+          "value": 5.07,
+          "adjusted": 8.39
+        },
+        "298": {
+          "value": 28.5,
+          "adjusted": 47.18
+        },
+        "306": {
+          "value": 36.98,
+          "adjusted": 61.22
+        },
+        "1701": {
+          "value": 15.5,
+          "adjusted": 25.66
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 6.49,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.08,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.2,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.66,
+        "adjusted": 2.75
+      },
+      "gold": {
+        "value": 390.89,
+        "adjusted": 647.07
+      },
+      "tick": "303"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.2232
+      },
+      "cds": {
+        "short": {
+          "interest": 6.02,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 8.02,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 9.02,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 514.76,
+        "adjusted": 850.44
+      },
+      "stocks": {
+        "292": {
+          "value": 5.63,
+          "adjusted": 9.3
+        },
+        "298": {
+          "value": 31.5,
+          "adjusted": 52.04
+        },
+        "306": {
+          "value": 37.91,
+          "adjusted": 62.63
+        },
+        "1701": {
+          "value": 15.94,
+          "adjusted": 26.33
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 6.32,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.9,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 7.09,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.73,
+        "adjusted": 2.86
+      },
+      "gold": {
+        "value": 385.04,
+        "adjusted": 636.13
+      },
+      "tick": "304"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.8968
+      },
+      "cds": {
+        "short": {
+          "interest": 5.9,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.9,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 8.9,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 533.4,
+        "adjusted": 879.5
+      },
+      "stocks": {
+        "292": {
+          "value": 5.93,
+          "adjusted": 9.77
+        },
+        "298": {
+          "value": 31.75,
+          "adjusted": 52.35
+        },
+        "306": {
+          "value": 38.77,
+          "adjusted": 63.93
+        },
+        "1701": {
+          "value": 15.69,
+          "adjusted": 25.87
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.68,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.94,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.2,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.59,
+        "adjusted": 2.62
+      },
+      "gold": {
+        "value": 387.58,
+        "adjusted": 639.06
+      },
+      "tick": "305"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.4465
+      },
+      "cds": {
+        "short": {
+          "interest": 5.77,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.77,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 8.77,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 543.87,
+        "adjusted": 895.59
+      },
+      "stocks": {
+        "292": {
+          "value": 5.89,
+          "adjusted": 9.7
+        },
+        "298": {
+          "value": 31.75,
+          "adjusted": 52.28
+        },
+        "306": {
+          "value": 40.87,
+          "adjusted": 67.29
+        },
+        "1701": {
+          "value": 16,
+          "adjusted": 26.35
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.65,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.98,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.21,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.3,
+        "adjusted": 2.15
+      },
+      "gold": {
+        "value": 386.19,
+        "adjusted": 635.94
+      },
+      "tick": "306"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.1976
+      },
+      "cds": {
+        "short": {
+          "interest": 5.77,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.77,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 8.77,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 562.06,
+        "adjusted": 923.73
+      },
+      "stocks": {
+        "292": {
+          "value": 6,
+          "adjusted": 9.86
+        },
+        "298": {
+          "value": 34,
+          "adjusted": 55.88
+        },
+        "306": {
+          "value": 41.42,
+          "adjusted": 68.07
+        },
+        "1701": {
+          "value": 15.56,
+          "adjusted": 25.58
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.71,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.22,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.5,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.42,
+        "adjusted": 2.33
+      },
+      "gold": {
+        "value": 383.78,
+        "adjusted": 630.73
+      },
+      "tick": "307"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.808
+      },
+      "cds": {
+        "short": {
+          "interest": 5.73,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.73,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 8.73,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 561.88,
+        "adjusted": 922.22
+      },
+      "stocks": {
+        "292": {
+          "value": 6.11,
+          "adjusted": 10.04
+        },
+        "298": {
+          "value": 33.5,
+          "adjusted": 54.98
+        },
+        "306": {
+          "value": 40.37,
+          "adjusted": 66.26
+        },
+        "1701": {
+          "value": 16,
+          "adjusted": 26.26
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.6,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.22,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.51,
+        "adjusted": 2.48
+      },
+      "gold": {
+        "value": 383.1,
+        "adjusted": 628.79
+      },
+      "tick": "308"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.164
+      },
+      "cds": {
+        "short": {
+          "interest": 5.79,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.79,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 8.79,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 585.87,
+        "adjusted": 959.09
+      },
+      "stocks": {
+        "292": {
+          "value": 5.96,
+          "adjusted": 9.76
+        },
+        "298": {
+          "value": 34.88,
+          "adjusted": 57.09
+        },
+        "306": {
+          "value": 40.56,
+          "adjusted": 66.39
+        },
+        "1701": {
+          "value": 16.69,
+          "adjusted": 27.32
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.65,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 6.01,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 6.17,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.17,
+        "adjusted": 1.92
+      },
+      "gold": {
+        "value": 383.25,
+        "adjusted": 627.4
+      },
+      "tick": "309"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.822
+      },
+      "cds": {
+        "short": {
+          "interest": 5.74,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.74,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 8.74,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 581.5,
+        "adjusted": 950.7
+      },
+      "stocks": {
+        "292": {
+          "value": 5.33,
+          "adjusted": 8.72
+        },
+        "298": {
+          "value": 34.13,
+          "adjusted": 55.79
+        },
+        "306": {
+          "value": 36.74,
+          "adjusted": 60.06
+        },
+        "1701": {
+          "value": 16.69,
+          "adjusted": 27.28
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.46,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.74,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 5.98,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.22,
+        "adjusted": 2
+      },
+      "gold": {
+        "value": 385.19,
+        "adjusted": 629.75
+      },
+      "tick": "310"
+    }
+  ],
+  [
+    "paused-game"
+  ],
+  [
+    "unpaused-game"
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 2.7716
+      },
+      "cds": {
+        "short": {
+          "interest": 5.62,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.62,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 8.62,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 605.37,
+        "adjusted": 988.44
+      },
+      "stocks": {
+        "292": {
+          "value": 5.52,
+          "adjusted": 9.01
+        },
+        "298": {
+          "value": 33.5,
+          "adjusted": 54.7
+        },
+        "306": {
+          "value": 37.85,
+          "adjusted": 61.79
+        },
+        "1701": {
+          "value": 16.75,
+          "adjusted": 27.35
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.33,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.49,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 5.71,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 1.04,
+        "adjusted": 1.7
+      },
+      "gold": {
+        "value": 387.35,
+        "adjusted": 632.46
+      },
+      "tick": "311"
+    }
+  ],
+  [
+    "timer-tick",
+    {
+      "savings": {
+        "rate": 3.626
+      },
+      "cds": {
+        "short": {
+          "interest": 5.39,
+          "term": 3,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 7.39,
+          "term": 12,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 8.39,
+          "term": 36,
+          "minimum": 1000
+        }
+      },
+      "fund": {
+        "value": 614.12,
+        "adjusted": 997.54
+      },
+      "stocks": {
+        "292": {
+          "value": 5.78,
+          "adjusted": 9.39
+        },
+        "298": {
+          "value": 35.25,
+          "adjusted": 57.26
+        },
+        "306": {
+          "value": 37.35,
+          "adjusted": 60.67
+        },
+        "1701": {
+          "value": 17.31,
+          "adjusted": 28.12
+        }
+      },
+      "bonds": {
+        "short": {
+          "interest": 5.18,
+          "term": 12,
+          "minimum": 250
+        },
+        "mid": {
+          "interest": 5.38,
+          "term": 60,
+          "minimum": 500
+        },
+        "long": {
+          "interest": 5.58,
+          "term": 120,
+          "minimum": 1000
+        }
+      },
+      "crop": {
+        "value": 0.95,
+        "adjusted": 1.54
+      },
+      "gold": {
+        "value": 400.49,
+        "adjusted": 650.53
+      },
+      "tick": "312"
+    }
+  ]
+]
