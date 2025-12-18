@@ -31,4 +31,4 @@ async function run() {
     console.log(`Merged ${Object.keys(mergedStockMap).length} stocks`);
 }
 
-run();
+module.exports = run;

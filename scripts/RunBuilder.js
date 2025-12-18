@@ -73,11 +73,25 @@ async function Scraper(workerID) {
         await page.click('.flickity-prev-next-button.next');
     }
     await page.getByRole('button', { name: 'got it' }).click();
-    
+
+    await page.waitForTimeout(1500000);
+
+    const yearsText = await page.locator('h6.status.years').textContent();
+    const [startYear, endYear] = yearsText.split(' - ').map(y => parseInt(y.trim()));
+
+    const gameYears = {
+      startYear: startYear,
+      endYear: endYear
+    };
+
+    const output = {
+      runData,
+      gameYears
+    };
 
     fs.writeFileSync(
         'runs/raw/runData-' + workerID + '.json',
-        JSON.stringify(runData, null, 2)
+        JSON.stringify(output, null, 2)
     );
 
     await browser.close();
