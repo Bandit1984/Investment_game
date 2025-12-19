@@ -2,10 +2,10 @@ const fs = require('fs');
 const Scraper = require('./RunBuilder');
 
 async function run() {
-    const WORKERS = 10;
+    const WORKERS = 15;
     const jobs = [];
 
-    for (let i = 0; i < WORKERS; i++) {
+    for (let i = 30; i < WORKERS+15; i++) {
         jobs.push(Scraper(i + 1));
     }
 
