@@ -156,7 +156,7 @@ function main() {
   if (missing.length) console.warn('Warning: missing files for indices', missing.join(','));
 
   const merged = mergeRunDatas(runDatas);
-  const outName = `merged-${indices.join('_')}.json`;
+  const outName = `merged-${indices[0]}-${indices[indices.length-1]}.json`;
   const outPath = path.join(outDir, outName);
 
   const outObj = { runData: merged };

@@ -81,8 +81,7 @@ async function Scraper(workerID, browserArg) {
     }
     await page.getByRole('button', { name: 'got it' }).click();
 
-    // Wait for the game to run (long wait). Consider instrumenting to exit earlier.
-    await page.waitForTimeout(1500000);
+    await page.waitForTimeout(1050000);
 
     const yearsText = await page.locator('h6.status.years').textContent();
     const [startYear, endYear] = yearsText.split(' - ').map(y => parseInt(y.trim()));
