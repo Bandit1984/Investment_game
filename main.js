@@ -2,7 +2,7 @@ const buildStocks = require('./scripts/BuildStocks');
 
 // Default run: change concurrency/start/end as needed. This will actually launch browsers when run.
 if (require.main === module) {
-	const options = { concurrency: 20, start: 2773, end: 3313};
+	const options = { concurrency: 20, start: 3313, end: 4753};
 	buildStocks(options).catch(err => {
 		console.error('BuildStocks failed:', err && err.message ? err.message : err);
 		process.exit(1);
