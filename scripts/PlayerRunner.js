@@ -20,18 +20,8 @@ async function Scraper(workerID, browserArg) {
 
     page.on('websocket', ws => {
       try {
-        console.log('websocket opened');
         ws.on('framereceived', frame => {
           const payload = frame.payload;
-          try {
-            if (typeof payload === 'string') {
-              console.log('frame payload snippet:', payload.slice(0, 120));
-            } else {
-              console.log('frame payload: <binary>');
-            }
-          } catch (e) {
-            // ignore logging errors
-          }
           // Ignore Socket.IO heartbeat frames
           if (payload === '2' || payload === '3') return;
           // Socket.IO event frame
@@ -192,13 +182,10 @@ async function Scraper(workerID, browserArg) {
     }
     await page.getByRole('button', { name: 'got it' }).click();
 
-                // day trading function
+    // day trading function
     dayTradingEnabled = true;
-    console.log('dayTradingEnabled = true');
 
-    // Keep the Scraper function alive so websocket handlers aren't closed by the finally block.
-    // Replace this with a proper shutdown signal if you want a graceful stop later.
-    await new Promise(() => {});
+    await page.waitForTimeout(1500000); 
 
 } finally {
     try { if (context) await context.close(); } catch (e) { /* ignore */ }
