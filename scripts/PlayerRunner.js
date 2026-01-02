@@ -13,6 +13,7 @@ async function Scraper(workerID, browserArg) {
   // ensure we always close the context even if the run errors
   let context;
   let dayTradingEnabled = false;
+  let lastMaxID = "";
   
   try {
     context = await browser.newContext();
@@ -28,28 +29,61 @@ async function Scraper(workerID, browserArg) {
           if (typeof payload === 'string' && payload.startsWith('42')) {
             try {
               const parsed = JSON.parse(payload.slice(2));
-
+                console.log('Received Socket.IO frame:', parsed[1].tick);
               if (dayTradingEnabled && Array.isArray(parsed) && parsed[0] === 'timer-tick' && parsed[1]) {
                 const tickData = parsed[1];
                 const currentTick = tickData.tick;
                 const stocks = tickData.stocks;               
                 const stockIds = Object.keys(stocks).sort((a, b) => parseInt(a) - parseInt(b));
               
-                let maxDiff = -Infinity;
-                let maxID = null;
+                let maxDiff = -1000;
+                let maxID = "";
                 
                 stockIds.forEach(ID => {
-                    const currValue = dataMap.stocks[parseInt(ID)].adjusted;
-                    const newValue = dataMap.stocks[parseInt(ID)+1].adjusted;
-                    const diff = difference(currValue, newValue);
+                    const currValue = dataMap.stocks[ID][currentTick-121].adjusted;
+                    const newValue = dataMap.stocks[ID][currentTick-120].adjusted;
+                    page.locator(`[id="${ID}"]`).getByText('MAX', { exact: true }).click({force: true});   
+
+                    console.log(`Stock ID ${ID}: Current Value = ${currValue}, New Value = ${newValue}`);
+                    const diff = ((newValue - currValue) / newValue) * 100;
+                    console.log(`Stock ID ${ID}: Percentage Increase = ${diff.toFixed(2)}%`);
                     if (diff > maxDiff) {
-                        maxDiff = diff;
-                        maxID = ID;
+                      maxDiff = diff;
+                      maxID = ID;
                     }
                 });
 
                 console.log(`Tick ${currentTick}: Buying stock ID ${maxID} with max increase of ${maxDiff.toFixed(2)}%`);
+                console.log(`Last Max ID was: ${lastMaxID}`);
 
+                if(maxDiff > 0){
+                    // sell all stocks first
+                    try {
+                       if(lastMaxID !== ""){
+                        page.locator(`[id="${lastMaxID}"]`).getByRole('button', { name: 'Sell' }).click({force: true});
+                       }
+                    } catch (e) {
+                        // ignore
+                    }
+                    // buy stock with max increase
+                    try {
+                        page.locator(`[id="${maxID}"]`).getByRole('button', { name: 'Buy' }).click({force: true});
+                    } catch (e) {
+                        // ignore
+                    }
+                  // record this purchase for next ticks
+                  lastMaxID = maxID;
+                }
+                else {
+                    try{
+                        if(lastMaxID !== ""){
+                        page.locator(`[id="${lastMaxID}"]`).getByRole('button', { name: 'Sell' }).click({force: true});
+                       }
+                    }
+                     catch (e) {
+                    // ignore
+                }
+                } 
                 
               }
             } catch (e) {
@@ -64,6 +98,8 @@ async function Scraper(workerID, browserArg) {
 
     // default timeout
     page.setDefaultTimeout(180000);
+
+    // await page.pause();
 
     await page.goto('https://buildyourstax.com/');
 
@@ -120,7 +156,7 @@ async function Scraper(workerID, browserArg) {
 
     // reinvest in CDs
     for (let i = 0; i < 3; i++) {
-    await page.waitForTimeout(14500);
+    await page.waitForTimeout(15000);
     await page.locator('div.btn.x-sm.simple.button:has-text("Collect")').click({force: true});
     await page.getByRole('button', { name: 'Buy' }).click();
     await page.getByRole('listitem').filter({ hasText: 'Months' }).locator('h6').click();
@@ -128,7 +164,7 @@ async function Scraper(workerID, browserArg) {
     await page.getByRole('button', { name: 'Buy' }).click();
     }
 
-    await page.waitForTimeout(14000);
+    await page.waitForTimeout(15000);
     await page.locator('div.btn.x-sm.simple.button:has-text("Collect")').click({force: true});
 
     // index fund
@@ -153,7 +189,7 @@ async function Scraper(workerID, browserArg) {
         }
         
         await page.waitForTimeout(15000);
-     for (let i = 0; i < 3; i++) {
+     for (let i = 0; i < 2; i++) {
         try {
         await page.locator('div.btn.x-sm.simple.button:has-text("Collect")').first().click({force: true});
         await page.getByRole('button', { name: 'Buy', exact: true }).click();
@@ -162,7 +198,7 @@ async function Scraper(workerID, browserArg) {
         await page.waitForTimeout(1000);
         await page.getByRole('button', { name: 'Buy', exact: true }).click();
         
-        if(i < 2){await page.waitForTimeout(15000);}
+        await page.waitForTimeout(15000);
         
         }
         catch (err) {
@@ -172,6 +208,8 @@ async function Scraper(workerID, browserArg) {
             }
         }
     }
+
+    // await page.waitForTimeout(15000);
 
     await page.locator('div.btn.x-sm.simple.button:has-text("Collect")').click({force: true});
     
@@ -185,7 +223,7 @@ async function Scraper(workerID, browserArg) {
     // day trading function
     dayTradingEnabled = true;
 
-    await page.waitForTimeout(1500000); 
+    await new Promise(() => {});
 
 } finally {
     try { if (context) await context.close(); } catch (e) { /* ignore */ }
@@ -223,8 +261,5 @@ async function ReceiveButton(page) {
   }
 }
 
-async function difference(currValue, newValue) {
-    return ((newValue - currValue) / currValue) * 100;
-}
 
 module.exports = Scraper;
